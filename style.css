@@ -101,16 +101,6 @@ video {
     margin-bottom: 10px;
 }
 
-.botao-som{
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    z-index: 4;
-    position: absolute;
-    top: 900px;
-    right: 150px
-    
-}
 
 .modal{
     display: none;
@@ -120,13 +110,76 @@ video {
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
 .modal-conteudo{
     background-color: #181818;
     margin: 30px auto;
     padding: 20px;
-    width: 60%;
+    width: 40%;
     color: white;
+}
+
+.img-info-modal{
+    width: 100%;
+    margin: auto;
+}
+
+.botao-som{
+    cursor: pointer;
+    z-index: 4;
+    position: absolute;
+    top: 990px;
+    right: 100px
+}
+
+/* Estilização do switch */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 24px;
+}
+
+/* Esconde o input checkbox real */
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* A parte deslizante do toggle */
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: 0.4s;
+    border-radius: 34px;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: 0.4s;
+    border-radius: 50%;
+}
+
+/* Quando o toggle estiver ativado */
+input:checked + .slider {
+    background-color: transparent;
+}
+
+input:checked + .slider:before {
+    transform: translateX(15px);
+    background-color: #4CAF50;
 }
