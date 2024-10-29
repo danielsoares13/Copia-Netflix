@@ -206,14 +206,14 @@ input:checked + .slider:before {
     
     .capa-titulo {
         color: white;
-        font-size: 8px;
+        font-size: 12px;
         margin-top: 50px;
         font-weight: bold;
     }
     
     .capa-descricao {
         color: white;
-        font-size: 5px;
+        font-size: 8px;
         margin-bottom: 20px;
         width: 150px;
     }
@@ -223,9 +223,8 @@ input:checked + .slider:before {
         color: black;
         padding: 3px;
         border-radius: 5px;
+        font-size: 10px;
         cursor: pointer;
-        height: 5%;
-        
     }
     
     .link-info{
@@ -233,6 +232,7 @@ input:checked + .slider:before {
         background-color: rgba(255, 255, 255, 0.35);
         padding: 3px;
         border-radius: 5px;
+        font-size: 10px;
         cursor: pointer;
     }
     
