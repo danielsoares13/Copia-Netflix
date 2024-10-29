@@ -188,7 +188,7 @@ input:checked + .slider:before {
 
 @media(min-width: 350px) and (max-width: 730px){
     .imagem-carrosel{
-        height: 80px;
+        height: 60px;
         border-radius: 5px; 
     }
 
@@ -204,7 +204,7 @@ input:checked + .slider:before {
         cursor: pointer;
         z-index: 4;
         position: absolute;
-        top: 300px;
+        top: 100px;
         right: 50px
     }
 }
@@ -218,7 +218,7 @@ input:checked + .slider:before {
     #carouselExampleControls{
         background-color: transparent;
         position: absolute;
-        top: 700px;
+        top: 600px;
         left: 50px;
         width: 97%;
     }
