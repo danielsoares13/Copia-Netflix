@@ -211,7 +211,7 @@ input:checked + .slider:before {
 
 @media(min-width: 731px) and (max-width: 1080px){
     .imagem-carrosel{
-        height: 100px;
+        height: 120px;
         border-radius: 5px; 
     }
 
@@ -227,7 +227,7 @@ input:checked + .slider:before {
         cursor: pointer;
         z-index: 4;
         position: absolute;
-        top: 480px;
+        top: 430px;
         right: 70px
     }
 }
