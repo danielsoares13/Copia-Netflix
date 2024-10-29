@@ -191,4 +191,12 @@ input:checked + .slider:before {
         height: 50px;
         border-radius: 5px; 
     }
+
+    #carouselExampleControls{
+        background-color: transparent;
+        position: absolute;
+        bottom: 110px;
+        left: 50px;
+        width: 97%;
+    }
 }
