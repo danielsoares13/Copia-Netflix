@@ -206,7 +206,7 @@ input:checked + .slider:before {
         color: white;
         font-size: 8px;
         margin-bottom: 20px;
-        width: 80px;
+        width: 100px;
     }
     
     .link-assistir{
@@ -215,6 +215,7 @@ input:checked + .slider:before {
         padding: -3px -6px;
         border-radius: 5px;
         cursor: pointer;
+        height: 50%;
         
     }
     
