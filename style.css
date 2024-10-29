@@ -256,8 +256,8 @@ input:checked + .slider:before {
         background-color: transparent;
         position: absolute;
         top: 270px;
-        left: 30px;
-        width: 99%;
+        left: 10px;
+        width: 100%;
     }
 
     .botao-som{
