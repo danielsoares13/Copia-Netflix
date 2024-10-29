@@ -209,7 +209,7 @@ input:checked + .slider:before {
     
     .capa {
         position: absolute;
-        bottom: 100px;
+        bottom: 120px;
         left: 5%;
         width: 100%;
         z-index: 3;
@@ -225,7 +225,7 @@ input:checked + .slider:before {
     .capa-descricao {
         color: white;
         font-size: 8px;
-        margin-bottom: 10px;
+        margin-bottom: 7px;
         width: 150px;
     }
     
