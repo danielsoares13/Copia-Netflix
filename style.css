@@ -188,7 +188,7 @@ input:checked + .slider:before {
 
 @media(min-width: 350px) and (max-width: 730px){
     ul {
-        height: 10px;
+        height: 5px;
         width: 95%;
         display: flex;
         justify-content: space-between;
@@ -198,7 +198,7 @@ input:checked + .slider:before {
     
     .capa {
         position: absolute;
-        bottom: 50px;
+        bottom: 70px;
         left: 5%;
         width: 100%;
         z-index: 3;
@@ -221,7 +221,7 @@ input:checked + .slider:before {
     .link-assistir{
         background-color: white;
         color: black;
-        padding: 3px -6px;
+        padding: 3px;
         border-radius: 5px;
         cursor: pointer;
         height: 5%;
