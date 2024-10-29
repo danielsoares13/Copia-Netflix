@@ -206,13 +206,13 @@ input:checked + .slider:before {
         color: white;
         font-size: 8px;
         margin-bottom: 20px;
-        width: 50px;
+        width: 80px;
     }
     
     .link-assistir{
         background-color: white;
         color: black;
-        padding: -1px -2px;
+        padding: -3px -6px;
         border-radius: 5px;
         cursor: pointer;
         
@@ -221,7 +221,7 @@ input:checked + .slider:before {
     .link-info{
         color: black;
         background-color: rgba(255, 255, 255, 0.35);
-        padding: -1px -2px;
+        padding: -3px -6px;
         border-radius: 5px;
         cursor: pointer;
     }
