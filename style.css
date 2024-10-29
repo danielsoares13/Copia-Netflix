@@ -209,8 +209,8 @@ input:checked + .slider:before {
     
     .capa {
         position: absolute;
-        bottom: 130px;
-        left: 5%;
+        bottom: 135px;
+        left: 3%;
         width: 100%;
         z-index: 3;
     }
@@ -255,8 +255,8 @@ input:checked + .slider:before {
     #carouselExampleControls{
         background-color: transparent;
         position: absolute;
-        top: 300px;
-        left: 50px;
+        top: 280px;
+        left: 40px;
         width: 97%;
     }
 
