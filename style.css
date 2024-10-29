@@ -197,8 +197,8 @@ input:checked + .slider:before {
     
     .capa-titulo {
         color: white;
-        font-size: 10px;
-        margin-bottom: 10px;
+        font-size: 12px;
+        margin-bottom: 5px;
         font-weight: bold;
     }
     
@@ -212,7 +212,7 @@ input:checked + .slider:before {
     .link-assistir{
         background-color: white;
         color: black;
-        padding: -3px -6px;
+        padding: 53px -6px;
         border-radius: 5px;
         cursor: pointer;
         height: 10%;
