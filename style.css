@@ -79,6 +79,7 @@ video {
     border-radius: 5px; 
 }
 
+
 .imagem-carrosel:hover{
     box-shadow: 0 0 8px #e6dd96;
     border: solid 1px #fff;
@@ -181,5 +182,13 @@ input:checked + .slider {
 
 input:checked + .slider:before {
     transform: translateX(15px);
-    background-color: #4CAF50;
+    background-color: #37853ad5;
+}
+
+
+@media(min-width: 350px) and (max-width: 730px){
+    .imagem-carrosel{
+        height: 120px;
+        border-radius: 5px; 
+    }
 }
