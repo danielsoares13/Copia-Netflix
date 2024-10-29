@@ -206,6 +206,7 @@ input:checked + .slider:before {
         color: white;
         font-size: 8px;
         margin-bottom: 20px;
+        width: 50px;
     }
     
     .link-assistir{
