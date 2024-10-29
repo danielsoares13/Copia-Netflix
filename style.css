@@ -187,15 +187,13 @@ input:checked + .slider:before {
 
 
 @media(min-width: 350px) and (max-width: 730px){
-    .img-topo {
+    ul {
         height: 20px;
-        margin-top: 25px;
-    }
-    
-    #img-conta{
-        height: 30px;
-        background-color: transparent;
-        border: none;
+        width: 95%;
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+        position: fixed;
     }
     
     .capa {
@@ -209,7 +207,7 @@ input:checked + .slider:before {
     .capa-titulo {
         color: white;
         font-size: 12px;
-        margin-bottom: 5px;
+        margin-top: 50px;
         font-weight: bold;
     }
     
