@@ -12,7 +12,7 @@ body {
 }
 
 ul {
-    height: 25px;
+    height: 55px;
     width: 95%;
     display: flex;
     justify-content: space-between;
@@ -195,10 +195,21 @@ input:checked + .slider:before {
         list-style-type: none;
         position: fixed;
     }
+
+    .img-topo {
+        height: 18px;
+        margin-top: 25px;
+    }
+    
+    #img-conta{
+        height: 20px;
+        background-color: transparent;
+        border: none;
+    }
     
     .capa {
         position: absolute;
-        bottom: 90px;
+        bottom: 100px;
         left: 5%;
         width: 100%;
         z-index: 3;
@@ -221,7 +232,7 @@ input:checked + .slider:before {
     .link-assistir{
         background-color: white;
         color: black;
-        padding: 3px;
+        padding: 3px 5px;
         border-radius: 5px;
         font-size: 7px;
         cursor: pointer;
