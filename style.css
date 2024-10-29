@@ -198,7 +198,7 @@ input:checked + .slider:before {
     
     .capa {
         position: absolute;
-        bottom: 35px;
+        bottom: 50px;
         left: 5%;
         width: 100%;
         z-index: 3;
