@@ -195,7 +195,7 @@ input:checked + .slider:before {
     #carouselExampleControls{
         background-color: transparent;
         position: absolute;
-        bottom: 110px;
+        bottom: 30px;
         left: 50px;
         width: 97%;
     }
