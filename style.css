@@ -217,7 +217,7 @@ input:checked + .slider:before {
     
     .capa-titulo {
         color: white;
-        font-size: 12px;
+        font-size: 15px;
         margin-top: 50px;
         font-weight: bold;
     }
@@ -225,7 +225,7 @@ input:checked + .slider:before {
     .capa-descricao {
         color: white;
         font-size: 8px;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
         width: 150px;
     }
     
