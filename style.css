@@ -189,7 +189,7 @@ input:checked + .slider:before {
 @media(min-width: 350px) and (max-width: 730px){
     .capa {
         position: absolute;
-        bottom: 30%;
+        bottom: 50%;
         left: 5%;
         width: 25%;
         z-index: 3;
@@ -197,14 +197,14 @@ input:checked + .slider:before {
     
     .capa-titulo {
         color: white;
-        font-size: 30px;
+        font-size: 5px;
         margin-bottom: 10px;
         font-weight: bold;
     }
     
     .capa-descricao {
         color: white;
-        font-size: 20px;
+        font-size: 5px;
         margin-bottom: 20px;
     }
     
@@ -225,7 +225,7 @@ input:checked + .slider:before {
     }
     
     .imagem-carrosel{
-        height: 60px;
+        height: 80px;
         border-radius: 5px; 
     }
 
