@@ -198,7 +198,7 @@ input:checked + .slider:before {
     
     .capa {
         position: absolute;
-        bottom: 70px;
+        bottom: 90px;
         left: 5%;
         width: 100%;
         z-index: 3;
@@ -231,7 +231,7 @@ input:checked + .slider:before {
     .link-info{
         color: black;
         background-color: rgba(255, 255, 255, 0.35);
-        padding: -3px -6px;
+        padding: 3px;
         border-radius: 5px;
         cursor: pointer;
     }
