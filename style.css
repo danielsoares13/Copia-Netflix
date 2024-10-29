@@ -187,6 +187,17 @@ input:checked + .slider:before {
 
 
 @media(min-width: 350px) and (max-width: 730px){
+    .img-topo {
+        height: 28px;
+        margin-top: 25px;
+    }
+    
+    #img-conta{
+        height: 40px;
+        background-color: transparent;
+        border: none;
+    }
+    
     .capa {
         position: absolute;
         bottom: 50%;

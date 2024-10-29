@@ -5,7 +5,7 @@ let modal = document.querySelector('.modal')
 let toggle = document.getElementById('toggle');
  
 
-toggle.addEventListener('change', function() {
+toggle.addEventListener('click', function() {
     if (this.checked) {
         video.muted = false
     } else {
