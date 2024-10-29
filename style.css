@@ -204,8 +204,8 @@ input:checked + .slider:before {
         cursor: pointer;
         z-index: 4;
         position: absolute;
-        top: 990px;
-        right: 100px
+        top: 600px;
+        right: 80px
     }
 }
 
@@ -227,7 +227,7 @@ input:checked + .slider:before {
         cursor: pointer;
         z-index: 4;
         position: absolute;
-        top: 990px;
+        top: 600px;
         right: 100px
     }
 }
