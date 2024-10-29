@@ -203,14 +203,14 @@ input:checked + .slider:before {
 
 @media(min-width: 731px) and (max-width: 1080px){
     .imagem-carrosel{
-        height: 60px;
+        height: 80px;
         border-radius: 5px; 
     }
 
     #carouselExampleControls{
         background-color: transparent;
         position: absolute;
-        top: 300px;
+        top: 700px;
         left: 50px;
         width: 97%;
     }
