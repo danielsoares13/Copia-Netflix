@@ -201,7 +201,7 @@ input:checked + .slider:before {
     }
 }
 
-@media(min-width: 731px) and (max-width: 180px){
+@media(min-width: 731px) and (max-width: 1080px){
     .imagem-carrosel{
         height: 60px;
         border-radius: 5px; 
