@@ -76,7 +76,8 @@ video {
 
 .imagem-carrosel{
     height: 150px;
-    border-radius: 5px; 
+    border-radius: 5px;
+    margin: 2px; 
 }
 
 
@@ -249,7 +250,8 @@ input:checked + .slider:before {
     
     .imagem-carrosel{
         height: 80px;
-        border-radius: 5px; 
+        border-radius: 5px;
+        margin: 2px; 
     }
 
     #carouselExampleControls{
