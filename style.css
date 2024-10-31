@@ -259,7 +259,7 @@ input:checked + .slider:before {
         position: absolute;
         top: 270px;
         left: 10px;
-        width: 100%;
+        width: 90%;
     }
 
     .botao-som{
