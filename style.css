@@ -262,6 +262,12 @@ input:checked + .slider:before {
         width: 90%;
     }
 
+    .titulo-carrossel{
+        color: white;
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
     .botao-som{
         cursor: pointer;
         z-index: 4;
