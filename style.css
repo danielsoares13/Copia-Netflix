@@ -296,6 +296,16 @@ input:checked + .slider:before {
     }
 }
 
+@media(orientation: landscape) {
+    .capa {
+        position: absolute;
+        bottom: 135px;
+        left: 3%;
+        width: 100%;
+        z-index: 3;
+    }
+}
+
 @media(min-width: 731px) and (max-width: 1080px){
     .imagem-carrosel{
         height: 120px;
