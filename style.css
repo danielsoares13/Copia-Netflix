@@ -403,13 +403,13 @@ input:checked + .slider:before {
     .imagem-carrosel{
         height: 125px;
         border-radius: 5px;
-        margin-top: 30px; 
+        margin-top: 80px; 
     }
 
     #carouselExampleControls{
         background-color: transparent;
         position: absolute;
-        top: 600px;
+        bottom: 600px;
         left: 50px;
         width: 97%;
     }
@@ -418,7 +418,7 @@ input:checked + .slider:before {
         cursor: pointer;
         z-index: 4;
         position: absolute;
-        top: 430px;
+        bottom: 430px;
         right: 70px
     }
 }
