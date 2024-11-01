@@ -364,20 +364,20 @@ input:checked + .slider:before {
         position: absolute;
         bottom: 30%;
         left: 5%;
-        width: 25%;
+        width: 50%;
         z-index: 3;
     }
 
     .capa-titulo {
         color: white;
-        font-size: 25px;
+        font-size: 35px;
         margin-top: 30px;
         font-weight: bold;
     }
     
     .capa-descricao {
         color: white;
-        font-size: 14px;
+        font-size: 18px;
         margin-bottom: 5px;
         width: 160px;
     }
@@ -401,8 +401,9 @@ input:checked + .slider:before {
     }
     
     .imagem-carrosel{
-        height: 120px;
-        border-radius: 5px; 
+        height: 125px;
+        border-radius: 5px;
+        margin-top: 30px; 
     }
 
     #carouselExampleControls{
