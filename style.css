@@ -401,15 +401,14 @@ input:checked + .slider:before {
     }
     
     .imagem-carrosel{
-        height: 135px;
+        height: 140px;
         border-radius: 5px;
-        margin-top: 80px; 
     }
 
     #carouselExampleControls{
         background-color: transparent;
         position: absolute;
-        bottom: 200px;
+        bottom: 50px;
         left: 50px;
         width: 97%;
     }
