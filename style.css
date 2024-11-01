@@ -266,7 +266,6 @@ input:checked + .slider:before {
         padding: 20px;
         width: 50%;
         color: white;
-        overflow-y: auto;
     }
     
     .img-info-modal{
