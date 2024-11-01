@@ -338,47 +338,7 @@ input:checked + .slider:before {
     }
 }
 
-@media(min-width: 731px) and (max-width: 1080px){
-    .capa {
-        position: absolute;
-        bottom: 195px;
-        left: 3%;
-        width: 50%;
-        z-index: 3;
-    }
-
-    .capa-titulo {
-        color: white;
-        font-size: 25px;
-        margin-top: 30px;
-        font-weight: bold;
-    }
-    
-    .capa-descricao {
-        color: white;
-        font-size: 14px;
-        margin-bottom: 5px;
-        width: 160px;
-    }
-    
-    .link-assistir{
-        background-color: white;
-        color: black;
-        padding: 3px 5px;
-        border-radius: 5px;
-        font-size: 10px;
-        cursor: pointer;
-    }
-    
-    .link-info{
-        color: black;
-        background-color: rgba(255, 255, 255, 0.35);
-        padding: 3px 5px;
-        border-radius: 5px;
-        font-size: 10px;
-        cursor: pointer;
-    }
-    
+@media(min-width: 731px) and (max-width: 1080px){    
     .imagem-carrosel{
         height: 120px;
         border-radius: 5px; 
