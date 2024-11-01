@@ -341,9 +341,9 @@ input:checked + .slider:before {
 @media(min-width: 731px) and (max-width: 1080px){
     .capa {
         position: absolute;
-        bottom: 185px;
+        bottom: 195px;
         left: 3%;
-        width: 45%;
+        width: 50%;
         z-index: 3;
     }
 
