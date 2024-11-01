@@ -299,7 +299,7 @@ input:checked + .slider:before {
 @media(orientation: landscape) {
     .capa {
         position: absolute;
-        bottom: 135px;
+        bottom: 165px;
         left: 3%;
         width: 40%;
         z-index: 3;
@@ -307,14 +307,14 @@ input:checked + .slider:before {
 
     .capa-titulo {
         color: white;
-        font-size: 15px;
+        font-size: 20px;
         margin-top: 50px;
         font-weight: bold;
     }
     
     .capa-descricao {
         color: white;
-        font-size: 8px;
+        font-size: 12px;
         margin-bottom: 5px;
         width: 150px;
     }
