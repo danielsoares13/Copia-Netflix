@@ -371,7 +371,7 @@ input:checked + .slider:before {
     .capa-titulo {
         color: white;
         font-size: 80px;
-        margin-top: 30px;
+        margin-top: 10px;
         font-weight: bold;
         width: 40%;
     }
@@ -418,7 +418,7 @@ input:checked + .slider:before {
         cursor: pointer;
         z-index: 4;
         position: absolute;
-        top: 550px;
+        top: 950px;
         right: 70px
     }
 }
