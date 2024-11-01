@@ -370,7 +370,7 @@ input:checked + .slider:before {
 
     .capa-titulo {
         color: white;
-        font-size: 40px;
+        font-size: 60px;
         margin-top: 30px;
         font-weight: bold;
     }
@@ -379,7 +379,6 @@ input:checked + .slider:before {
         color: white;
         font-size: 15px;
         margin-bottom: 5px;
-        width: 200px;
     }
     
     .link-assistir{
