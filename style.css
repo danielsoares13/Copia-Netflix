@@ -299,9 +299,9 @@ input:checked + .slider:before {
 @media(orientation: landscape) {
     .capa {
         position: absolute;
-        bottom: 165px;
+        bottom: 185px;
         left: 3%;
-        width: 40%;
+        width: 45%;
         z-index: 3;
     }
 
