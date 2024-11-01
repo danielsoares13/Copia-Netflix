@@ -349,16 +349,16 @@ input:checked + .slider:before {
 
     .capa-titulo {
         color: white;
-        font-size: 20px;
-        margin-top: 50px;
+        font-size: 25px;
+        margin-top: 30px;
         font-weight: bold;
     }
     
     .capa-descricao {
         color: white;
-        font-size: 12px;
+        font-size: 14px;
         margin-bottom: 5px;
-        width: 150px;
+        width: 160px;
     }
     
     .link-assistir{
