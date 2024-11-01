@@ -379,6 +379,7 @@ input:checked + .slider:before {
         color: white;
         font-size: 15px;
         margin-bottom: 5px;
+        width: 50%;
     }
     
     .link-assistir{
@@ -416,7 +417,7 @@ input:checked + .slider:before {
         cursor: pointer;
         z-index: 4;
         position: absolute;
-        bottom: 750px;
+        top: 750px;
         right: 70px
     }
 }
