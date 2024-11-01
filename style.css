@@ -257,6 +257,7 @@ input:checked + .slider:before {
         width: 100%;
         height: 90%;
         background-color: rgba(0, 0, 0, 0.6);
+        overflow-y: auto;
     }
     
     .modal-conteudo{
@@ -265,7 +266,7 @@ input:checked + .slider:before {
         padding: 20px;
         width: 50%;
         color: white;
-        overflow-y: scroll;
+        overflow-y: auto;
     }
     
     .img-info-modal{
