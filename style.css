@@ -401,7 +401,7 @@ input:checked + .slider:before {
     }
     
     .imagem-carrosel{
-        height: 125px;
+        height: 135px;
         border-radius: 5px;
         margin-top: 80px; 
     }
@@ -409,7 +409,7 @@ input:checked + .slider:before {
     #carouselExampleControls{
         background-color: transparent;
         position: absolute;
-        bottom: 600px;
+        bottom: 200px;
         left: 50px;
         width: 97%;
     }
@@ -418,7 +418,7 @@ input:checked + .slider:before {
         cursor: pointer;
         z-index: 4;
         position: absolute;
-        bottom: 430px;
+        bottom: 530px;
         right: 70px
     }
 }
