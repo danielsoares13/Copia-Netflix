@@ -370,7 +370,7 @@ input:checked + .slider:before {
 
     .capa-titulo {
         color: white;
-        font-size: 80px;
+        font-size: 70px;
         margin-top: 10px;
         font-weight: bold;
         width: 40%;
@@ -378,7 +378,7 @@ input:checked + .slider:before {
     
     .capa-descricao {
         color: white;
-        font-size: 20px;
+        font-size: 18px;
         margin-bottom: 15px;
         width: 50%;
     }
@@ -386,18 +386,18 @@ input:checked + .slider:before {
     .link-assistir{
         background-color: white;
         color: black;
-        padding: 4px 6px;
+        padding: 6px 8px;
         border-radius: 5px;
-        font-size: 16px;
+        font-size: 15px;
         cursor: pointer;
     }
     
     .link-info{
         color: black;
         background-color: rgba(255, 255, 255, 0.35);
-        padding: 4px 6px;
+        padding: 6px 8px;
         border-radius: 5px;
-        font-size:16px;
+        font-size:15px;
         cursor: pointer;
     }
     
