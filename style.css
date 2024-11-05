@@ -13,23 +13,47 @@ body {
 
 ul {
     height: 55px;
-    width: 95%;
-    display: flex;
-    justify-content: space-between;
+    width: 94%;
+    margin-left: 40px;
+    display: flex;  
     list-style-type: none;
     position: fixed;
+    z-index: 5;
+    
 }
 
+nav a:hover{
+    text-decoration: none;
+    color: #c5c3c3;
+    transition: 0.5s;
+}
 
-.img-topo {
-    height: 28px;
+.img-topo-logo {
+    height: 30px;
     margin-top: 25px;
+    padding-right: 30px;
 }
 
-#img-conta{
+.img-conta{
+    margin-top: 20px;
+    margin-left: 1150px;
     height: 40px;
     background-color: transparent;
-    border: none;
+    border-radius: 10%;
+    position: absolute;
+}
+
+.menu-head{
+    color: white;
+    margin-top: 30px;
+    padding-left: 25px;
+}
+
+.menu-head-texto{
+    color: white;
+    font-size: 17px;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", sans-serif;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.4);
 }
 
 video {
@@ -42,7 +66,7 @@ video {
     bottom: 30%;
     left: 5%;
     width: 25%;
-    z-index: 3;
+    z-index: 5;
 }
 
 .capa-titulo {
@@ -72,6 +96,14 @@ video {
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
+}
+
+.link-assistir:hover{
+    background-color: #c7c5c5
+}
+
+.link-info:hover{
+    background-color: rgba(255, 255, 255, 0.281);
 }
 
 .imagem-carrosel{
@@ -128,63 +160,24 @@ video {
     margin: auto;
 }
 
-.botao-som{
-    cursor: pointer;
-    z-index: 4;
+#volumeToggle {
     position: absolute;
-    top: 950px;
-    right: 90px
-}
-
-/* Estilização do switch */
-.switch {
-    position: relative;
-    display: inline-block;
-    width: 40px;
-    height: 24px;
-}
-
-/* Esconde o input checkbox real */
-.switch input {
-    opacity: 0;
-    width: 0;
-    height: 0;
-}
-
-/* A parte deslizante do toggle */
-.slider {
-    position: absolute;
-    cursor: pointer;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: #ccc;
-    transition: 0.4s;
-    border-radius: 34px;
-}
-
-.slider:before {
-    position: absolute;
-    content: "";
-    height: 16px;
-    width: 16px;
-    left: 4px;
-    bottom: 4px;
-    background-color: white;
-    transition: 0.4s;
+    right: 88px;
+    bottom: 310px;
+    background-color: #333;
+    color: #fff;
+    border: none;
     border-radius: 50%;
-}
-
-/* Quando o toggle estiver ativado */
-input:checked + .slider {
-    background-color: transparent;
-}
-
-input:checked + .slider:before {
-    transform: translateX(15px);
-    background-color: #37853ad5;
-}
+    padding: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: 0.3s ease;
+    z-index: 6;
+  }
+  
+  #volumeToggle:hover {
+    background-color: #555;
+  }
 
 
 @media(min-width: 350px) and (max-width: 730px){
