@@ -1,7 +1,8 @@
-let BotaoSom = document.querySelector(".botao-som")
 let video = document.querySelector(".video")
-let Botao = document.querySelector(".link-info")
-let modal = document.querySelector('.modal')
+const BotaoSom = document.getElementById("volumeToggle");
+const icon = BotaoSom.querySelector("i");
+const Botao = document.querySelector(".link-info")
+const modal = document.querySelector('.modal')
 
 Botao.addEventListener("click", MostrarModal)
 modal.addEventListener("click", EsconderModal)
@@ -16,9 +17,7 @@ function EsconderModal(){
 
 
 function toggleVolume() {
-    let BotaoSom = document.getElementById("volumeToggle");
-    let icon = BotaoSom.querySelector("i");
-
+    
     // Verifica o estado atual do áudio
     if (video.muted) {
       video.muted = false;

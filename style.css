@@ -164,7 +164,7 @@ video {
     position: absolute;
     right: 88px;
     bottom: 310px;
-    background-color: #333;
+    background-color: rgba(68, 68, 68, 0.521);
     color: #fff;
     border: none;
     border-radius: 50%;
@@ -241,6 +241,26 @@ video {
         cursor: pointer;
     }
 
+    #volumeToggle {
+        position: absolute;
+        right: 88px;
+        bottom: 310px;
+        background-color: rgba(68, 68, 68, 0.521);
+        color: #fff;
+        border: none;
+        border-radius: 50%;
+        padding: 10px;
+        cursor: pointer;
+        font-size: 20px;
+        transition: 0.3s ease;
+        z-index: 6;
+      }
+      
+      #volumeToggle:hover {
+        background-color: #555;
+      }
+    
+
     .modal{
         display: none;
         position: fixed;
@@ -284,14 +304,6 @@ video {
         color: white;
         font-size: 30px;
         margin-bottom: 15px;
-    }
-
-    .botao-som{
-        cursor: pointer;
-        z-index: 4;
-        position: absolute;
-        top: 190px;
-        right: 30px
     }
 
     .switch {
