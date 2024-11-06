@@ -411,15 +411,15 @@ video {
 
 @media(min-width: 1081px) and (max-width: 2000px){
     .img-topo-logo {
-        height: 30px;
+        height: 27px;
         margin-top: 25px;
         padding-right: 30px;
     }
     
     .img-conta{
         margin-top: 20px;
-        margin-left: 1000px;
-        height: 40px;
+        margin-right: 50px;
+        height: 35px;
         background-color: transparent;
         border-radius: 10%;
         position: absolute;
