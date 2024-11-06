@@ -244,7 +244,7 @@ video {
     #volumeToggle {
         position: absolute;
         right: 88px;
-        bottom: 310px;
+        top: 310px;
         background-color: rgba(68, 68, 68, 0.521);
         color: #fff;
         border: none;
