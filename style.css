@@ -243,15 +243,15 @@ video {
 
     #volumeToggle {
         position: absolute;
-        right: 30px;
-        top: 170px;
+        right: 88px;
+        bottom: 310px;
         background-color: rgba(68, 68, 68, 0.521);
         color: #fff;
         border: none;
         border-radius: 50%;
         padding: 10px;
         cursor: pointer;
-        font-size: 15px;
+        font-size: 20px;
         transition: 0.3s ease;
         z-index: 6;
       }
