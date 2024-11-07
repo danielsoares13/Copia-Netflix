@@ -180,7 +180,7 @@ video {
   }
 
 
-@media(min-width: 350px) and (max-width: 730px){
+@media(min-width: 350px) and (max-width: 535px){
     ul {
         height: 5px;
         width: 95%;
@@ -331,7 +331,7 @@ video {
         height: 25px;
         margin-top: 25px;
         padding-right: 20px;
-        left: 40px;
+        left: 20px;
     }
     
     .img-conta{
@@ -432,7 +432,7 @@ video {
     #volumeToggle {
         position: absolute;
         right: 80px;
-        bottom: 250px;
+        bottom: 230px;
         background-color: rgba(68, 68, 68, 0.521);
         color: #fff;
         border: none;
