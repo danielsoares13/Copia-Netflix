@@ -182,7 +182,7 @@ video {
 
 @media(min-width: 350px) and (max-width: 730px){
     ul {
-        height: 1px;
+        height: 4px;
         width: 95%;
         display: flex;
         justify-content: space-between;
@@ -191,7 +191,7 @@ video {
     }
 
     .img-topo {
-        height: 10px;
+        height: 5px;
         margin-top: 25px;
     }
     
@@ -209,7 +209,7 @@ video {
     
     .menu-head-texto{
         color: white;
-        font-size: 5px;
+        font-size: 10px;
         font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", sans-serif;
         text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.4);
     }
@@ -445,7 +445,7 @@ video {
     #volumeToggle {
         position: absolute;
         right: 80px;
-        bottom: 150px;
+        bottom: 180px;
         background-color: rgba(68, 68, 68, 0.521);
         color: #fff;
         border: none;
