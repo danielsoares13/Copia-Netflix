@@ -327,6 +327,34 @@ video {
 }
 
 @media(min-width: 731px) and (max-width: 1080px){
+    .img-topo-logo {
+        height: 20px;
+        margin-top: 25px;
+        padding-right: 30px;
+    }
+    
+    .img-conta{
+        margin-top: 20px;
+        right: 15px;
+        height: 35px;
+        background-color: transparent;
+        border-radius: 15%;
+        position: absolute;
+    }
+
+    .menu-head{
+        color: white;
+        margin-top: 30px;
+        padding-left: 25px;
+    }
+    
+    .menu-head-texto{
+        color: white;
+        font-size: 17px;
+        font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", sans-serif;
+        text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.4);
+    }
+
     .capa {
         position: absolute;
         bottom: 195px;
