@@ -191,7 +191,7 @@ video {
     }
 
     .img-topo {
-        height: 18px;
+        height: 15px;
         margin-top: 25px;
     }
     
@@ -339,7 +339,7 @@ video {
     }
 }
 
-@media(min-width: 731px) and (max-width: 1080px){
+@media(min-width: 732px) and (max-width: 1080px){
     .img-topo-logo {
         height: 15px;
         margin-top: 25px;
@@ -445,7 +445,7 @@ video {
     #volumeToggle {
         position: absolute;
         right: 80px;
-        bottom: 70px;
+        bottom: 120px;
         background-color: rgba(68, 68, 68, 0.521);
         color: #fff;
         border: none;
@@ -462,7 +462,7 @@ video {
       }
 }
 
-@media(min-width: 1081px) and (max-width: 2000px){
+@media(min-width: 1082px) and (max-width: 2000px){
     .img-topo-logo {
         height: 27px;
         margin-top: 25px;
