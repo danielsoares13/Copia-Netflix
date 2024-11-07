@@ -182,7 +182,7 @@ video {
 
 @media(min-width: 350px) and (max-width: 730px){
     ul {
-        height: 5px;
+        height: 1px;
         width: 95%;
         display: flex;
         justify-content: space-between;
@@ -191,7 +191,7 @@ video {
     }
 
     .img-topo {
-        height: 25px;
+        height: 10px;
         margin-top: 25px;
     }
     
@@ -203,13 +203,13 @@ video {
 
     .menu-head{
         color: white;
-        margin-top: 20px;
+        margin-top: 25px;
         padding-left: 25px;
     }
     
     .menu-head-texto{
         color: white;
-        font-size: 15px;
+        font-size: 5px;
         font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", sans-serif;
         text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.4);
     }
