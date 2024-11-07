@@ -341,7 +341,7 @@ video {
 
 @media(min-width: 731px) and (max-width: 1080px){
     .img-topo-logo {
-        height: 25px;
+        height: 15px;
         margin-top: 25px;
         padding-right: 20px;
         left: 10px;
@@ -364,7 +364,7 @@ video {
     
     .menu-head-texto{
         color: white;
-        font-size: 10px;
+        font-size: 7px;
         font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", sans-serif;
         text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.4);
     }
@@ -445,7 +445,7 @@ video {
     #volumeToggle {
         position: absolute;
         right: 80px;
-        bottom: 20px;
+        bottom: 70px;
         background-color: rgba(68, 68, 68, 0.521);
         color: #fff;
         border: none;
