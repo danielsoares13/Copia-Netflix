@@ -259,6 +259,7 @@ video {
   .img-idade{
     height: 45px;
     margin-left: 20px;
+    border-radius: 5px;
   }
 
   #volumeToggleModal {
