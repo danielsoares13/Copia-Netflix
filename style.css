@@ -224,10 +224,15 @@ video {
     margin: auto;
 }
 
-#volumeToggle {
+.vol-idade-min{
     position: absolute;
-    right: 88px;
-    bottom: 300px;
+    right: 0px;
+    bottom: 320px;
+    display: flex;
+}
+
+#volumeToggle {
+
     background-color: rgba(68, 68, 68, 0.521);
     color: #fff;
     border: none;
@@ -241,6 +246,19 @@ video {
   
   #volumeToggle:hover {
     background-color: #555;
+  }
+
+  .caixa-idade{
+    background-color: rgba(51, 51, 51, 0.6);
+    width: 130px;
+    margin-left: 15px;
+    border: 4px white;
+    border-left-style: solid;
+  }
+
+  .img-idade{
+    height: 45px;
+    margin-left: 20px;
   }
 
   #volumeToggleModal {

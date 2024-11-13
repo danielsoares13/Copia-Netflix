@@ -31,7 +31,7 @@ function EsconderModal(event) {
 
 function toggleVolume() {
     
-    // Verifica o estado atual do áudio
+
     if (video.muted) {
       video.muted = false;
       icon.classList.replace("fa-volume-mute", "fa-volume-up");
@@ -43,7 +43,7 @@ function toggleVolume() {
 
   function toggleVolumeModal() {
     
-    // Verifica o estado atual do áudio
+    
     if (VideoModal.muted) {
       VideoModal.muted = false;
       iconModal.classList.replace("fa-volume-mute", "fa-volume-up");
