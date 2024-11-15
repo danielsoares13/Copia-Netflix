@@ -57,13 +57,57 @@ nav a:hover{
     text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.4);
 }
 
-.lupa{
-    position: absolute;
-    right: 205px;
-    font-size: 30px;
-    margin-top: -10px;
-    cursor: pointer;
+/* Estilos da área de pesquisa */
+.search-container {
+    position: relative;
+    display: flex;
+    right: -770px;
+    margin-top: 18px;
+    font-size: 15px;
 }
+  
+.search-input {
+    width: 0; /* Começa escondido */
+    padding: 8px 8px;
+    border: 1px solid #ccc;
+    outline: none;
+    transition: width 0.3s ease; /* Transição para suavizar o deslizamento */
+    opacity: 0; /* Inicia invisível */
+    position: absolute;
+    right: 0px;
+    z-index: 1;
+    padding-left: 50px;
+    color: white;
+}
+
+.search-input::placeholder{
+    color: white;
+    opacity: 0.7;
+}
+  
+.search-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 25px;
+    color: white;
+    transition: 0.3s ease; 
+    z-index: 6;
+    margin-top: 2px;
+}
+  
+.search-container.active .search-input {
+    width: 300px; /* Largura do campo ao abrir */
+    opacity: 1;
+    z-index: 6; /* Trazer o campo para frente */
+    background-color: black;
+    border: 1px solid hsla(0, 0%, 100%, .85);
+}
+  
+.search-container.active .search-btn {
+    transform: translateX(-258px);
+    border: transparent;
+}  
 
 .kids{
     position: absolute;

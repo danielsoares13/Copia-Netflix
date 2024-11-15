@@ -6,6 +6,9 @@ const BotaoSomModal = document.getElementById("volumeToggleModal");
 const iconModal = BotaoSomModal.querySelector("i");
 const Botao = document.querySelector(".link-info")
 const modal = document.querySelector('.modal')
+const searchContainer = document.querySelector(".search-container");
+const searchBtn = document.querySelector(".search-btn");
+const searchInput = document.querySelector(".search-input");
 
 Botao.addEventListener("click", MostrarModal)
 modal.addEventListener("click", EsconderModal)
@@ -52,3 +55,17 @@ function toggleVolume() {
       iconModal.classList.replace("fa-volume-up", "fa-volume-mute");
     }
   }
+
+  searchBtn.addEventListener("click", () => {
+    searchContainer.classList.toggle("active"); // Alterna a classe 'active'
+    if (searchInput.style.width === "0px" || searchInput.style.width === "") {
+     searchInput.focus(); // Foca no campo quando ele é aberto
+  }
+});
+
+document.addEventListener("click", (event) => {
+  // Verifica se o clique foi fora do `searchContainer`
+  if (!searchContainer.contains(event.target)) {
+    searchContainer.classList.remove("active");
+  }
+});
