@@ -136,23 +136,33 @@ video {
 
 .capa {
     position: absolute;
-    bottom: 30%;
-    left: 5%;
+    bottom:33%;
+    left: 4%;
     width: 29%;
     z-index: 5;
 }
 
 .capa-titulo {
     color: white;
-    font-size: 80px;
+    font-size: 110px;
     margin-bottom: 10px;
     font-weight: bold;
+    transition: 0.8s 10.3s;
+}
+
+.capa-titulo.ativo{ 
+    transform: scale(0.7) translate(-120px, 230px);
 }
 
 .capa-descricao{
     color: white;
     font-size: 20px;
     margin-bottom: 35px;
+    transition: 0.5s 10s;
+}
+
+.capa-descricao.ativo{
+    transform: scaleY(0);
 }
 
 .link-assistir{
@@ -271,7 +281,7 @@ video {
 .vol-idade-min{
     position: absolute;
     right: 0px;
-    bottom: 320px;
+    bottom: 33%;
     display: flex;
 }
 
