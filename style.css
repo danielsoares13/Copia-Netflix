@@ -9,6 +9,7 @@ body {
     font-family: "Montserrat", sans-serif;
     position: relative;
     margin-bottom: 700px;
+    overflow-x: hidden;
 }
 
 ul {
@@ -123,10 +124,11 @@ nav a:hover{
     cursor: pointer;
 }
 
-.usuarios{
-    position: absolute;
-    right: -10px;
+.usuarios {
+    position: relative; 
+    right: -900px; 
     cursor: pointer;
+    width: 60px;
 }
 
 video {
@@ -216,6 +218,25 @@ video {
     transition: all 0.2s linear;
 }
 
+.carousel-control-prev{
+    height: 260px;
+    width: 80px;
+    margin-left: -60px;
+}
+
+.carousel-control-next{
+    height: 260px;
+    width: 50px;
+    margin-right: -15px;
+}
+
+.carousel-control-prev:hover{
+    transform: scale(1.5);
+}
+
+.carousel-control-next:hover{
+    transform: scale(1.5);
+}
 
 .titulo-carousel1{
     color: white;
